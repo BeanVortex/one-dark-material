@@ -1,0 +1,26 @@
+{
+    "name": "one-dark-material",
+    "displayName": "one-dark-material",
+    "description": "mixed two famous themes",
+    "version": "0.0.1",
+    "repository": {
+        "type":"git",
+        "url": ""
+    },
+    "publisher": "DarkDeveloper",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "One Dark Material",
+                "uiTheme": "vs-dark",
+                "path": "./themes/One Dark Material-color-theme.json"
+            }
+        ]
+    }
+}
